@@ -32,4 +32,11 @@ fuentes: ["ZIP de AI Studio", "DOCS/", "instrucciones de la persona usuaria"]
 
 - Inicialicé Git en la carpeta de trabajo, rama `main`.
 - Dejé preparados explícitamente `proyecto/`, `AGENTS.md`, `.gitignore` y `wiki/`; los documentos de `DOCS/` y ZIP originales quedan ignorados.
-- No hay `user.name` ni `user.email` configurados. El primer commit queda pendiente de esos dos datos; no cambié la configuración global.
+- En ese momento, el primer commit quedó pendiente de nombre y correo; el dato se resolvió en la entrada siguiente.
+
+## [2026-10-28] versionado | primer commit local
+
+- La persona usuaria proporcionó el nombre `Digleines` y el correo `digleines@gmail.com` para el autor de Git.
+- Guardé esos datos únicamente en la configuración local del repositorio; no cambié la configuración global.
+- Creé el primer commit `87a35f1` (`Configura landing y wiki de Mundo Color`) con la web extraída, instrucciones y wiki. Los originales de `DOCS/` y los ZIP permanecen excluidos.
+- La compilación y lint ya se habían comprobado, y la vista previa local sigue disponible en `http://127.0.0.1:3000/`.

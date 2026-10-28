@@ -29,13 +29,12 @@ fuentes: ["proyecto/package.json", "proyecto/README.md", "mundo-color---detalles
 
 ## Git y publicación
 
-- **Confirmado:** Git está instalado; esta carpeta no era un repositorio al iniciar la tarea. No hay identidad Git configurada.
-- **Hecho:** repositorio local inicializado en la rama `main`; los archivos de la web y la wiki están preparados en el área de cambios. `DOCS/`, los ZIP, secretos, dependencias y temporales están excluidos.
-- **Pendiente:** crear el primer commit cuando se facilite nombre y correo. No se modificó configuración global.
+- **Confirmado:** Git está instalado; esta carpeta no era un repositorio al iniciar la tarea.
+- **Hecho:** identidad local de Git configurada con el nombre `Digleines` y el correo `digleines@gmail.com`, proporcionados por la persona usuaria. La configuración global no se modificó.
+- **Hecho:** repositorio local inicializado en la rama `main`; primer commit `87a35f1` (`Configura landing y wiki de Mundo Color`). `DOCS/`, los ZIP originales, secretos, dependencias y temporales están excluidos.
 - **Confirmado:** no se encontró evidencia de una publicación ni se publicó nada en esta sesión.
 
 ## Siguiente paso
 
-1. Completar instalación, compilación y lint.
-2. Abrir una vista previa local y revisar tamaños de escritorio y móvil.
-3. Elegir con la persona propietaria un cambio pequeño. Sugerencia registrada en [[pendientes]].
+1. Elegir con la persona propietaria un cambio pequeño. Sugerencia registrada en [[pendientes]].
+2. Resolver la discrepancia del horario antes de presentar el horario de la landing como confirmado.
