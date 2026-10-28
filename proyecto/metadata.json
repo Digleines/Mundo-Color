@@ -1,0 +1,6 @@
+{
+  "name": "Mundo Color - Detalles con Amor",
+  "description": "Tienda boutique de bouquets de globos, desayunos sorpresa, cajas de lujo personalizadas y peluches artesanales en Valledupar, Cesar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
