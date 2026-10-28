@@ -40,3 +40,10 @@ fuentes: ["ZIP de AI Studio", "DOCS/", "instrucciones de la persona usuaria"]
 - Guardé esos datos únicamente en la configuración local del repositorio; no cambié la configuración global.
 - Creé el primer commit `87a35f1` (`Configura landing y wiki de Mundo Color`) con la web extraída, instrucciones y wiki. Los originales de `DOCS/` y los ZIP permanecen excluidos.
 - La compilación y lint ya se habían comprobado, y la vista previa local sigue disponible en `http://127.0.0.1:3000/`.
+
+## [2026-10-28] publicación | subida a GitHub pendiente
+
+- La persona usuaria autorizó subir la rama `main` a `https://github.com/Digleines/Mundo-Color.git`.
+- Configuré `origin` con esa URL. La revisión de archivos versionados no encontró patrones de claves privadas ni tokens; `DOCS/`, ZIP, dependencias y archivos de entorno reales están excluidos.
+- `git push -u origin main` no se completó: el entorno no resolvió `github.com` y el segundo intento quedó sin respuesta hasta interrumpirlo. No se confirma que el repositorio remoto recibiera cambios ni que la página esté publicada.
+- Próximo paso: repetir la subida cuando el entorno tenga conexión a GitHub y verificar el resultado.

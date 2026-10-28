@@ -31,10 +31,13 @@ fuentes: ["proyecto/package.json", "proyecto/README.md", "mundo-color---detalles
 
 - **Confirmado:** Git está instalado; esta carpeta no era un repositorio al iniciar la tarea.
 - **Hecho:** identidad local de Git configurada con el nombre `Digleines` y el correo `digleines@gmail.com`, proporcionados por la persona usuaria. La configuración global no se modificó.
-- **Hecho:** repositorio local inicializado en la rama `main`; primer commit `87a35f1` (`Configura landing y wiki de Mundo Color`). `DOCS/`, los ZIP originales, secretos, dependencias y temporales están excluidos.
-- **Confirmado:** no se encontró evidencia de una publicación ni se publicó nada en esta sesión.
+- **Hecho:** repositorio local en la rama `main`, con commits `87a35f1` y `aa2b6a0`. El remoto `origin` está configurado como `https://github.com/Digleines/Mundo-Color.git`.
+- **Pendiente:** subir `main` a GitHub. `git push -u origin main` no pudo conectar porque este entorno no resuelve `github.com`; no hay confirmación de subida ni publicación.
+- **Confirmado:** `DOCS/`, los ZIP originales, secretos, dependencias y temporales están excluidos.
+- **Confirmado:** no se encontró evidencia de una publicación y no se publicó nada en esta sesión. La subida de código a GitHub sigue pendiente.
 
 ## Siguiente paso
 
-1. Elegir con la persona propietaria un cambio pequeño. Sugerencia registrada en [[pendientes]].
-2. Resolver la discrepancia del horario antes de presentar el horario de la landing como confirmado.
+1. Restablecer conectividad con GitHub y subir `main` a `origin`.
+2. Elegir con la persona propietaria un cambio pequeño. Sugerencia registrada en [[pendientes]].
+3. Resolver la discrepancia del horario antes de presentar el horario de la landing como confirmado.
