@@ -47,3 +47,9 @@ fuentes: ["ZIP de AI Studio", "DOCS/", "instrucciones de la persona usuaria"]
 - Configuré `origin` con esa URL. La revisión de archivos versionados no encontró patrones de claves privadas ni tokens; `DOCS/`, ZIP, dependencias y archivos de entorno reales están excluidos.
 - `git push -u origin main` no se completó: el entorno no resolvió `github.com` y el segundo intento quedó sin respuesta hasta interrumpirlo. No se confirma que el repositorio remoto recibiera cambios ni que la página esté publicada.
 - Próximo paso: repetir la subida cuando el entorno tenga conexión a GitHub y verificar el resultado.
+
+## [2026-10-28] publicación | código confirmado en GitHub
+
+- Tras la autorización de la persona usuaria, repetí `git push -u origin main`; GitHub respondió que todo estaba al día y configuró el seguimiento local de `origin/main`.
+- Una verificación detallada con `git push --porcelain --verbose origin main` confirmó que `refs/heads/main` está al día en `https://github.com/Digleines/Mundo-Color.git`.
+- El código está en el repositorio. No comprobé un sitio desplegado ni una URL pública; queda por confirmar la configuración de Pages o de otro servicio.
